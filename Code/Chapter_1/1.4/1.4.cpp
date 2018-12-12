@@ -1,3 +1,7 @@
+/*
+编写乘法运算
+
+*/
 #include <iostream>
 using namespace std;
 
