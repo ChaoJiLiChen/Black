@@ -1,3 +1,6 @@
+/*
+使用while循环将50 到 100 的整数打印
+*/
 #include <iostream>
 
 using namespace std;

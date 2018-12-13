@@ -1,3 +1,7 @@
+/*
+使用递减顺序打印10 到 0 的整数 使用“--”
+by Jack 2018.12.13
+*/
 #include <iostream>
 
 using namespace std;
