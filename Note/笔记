@@ -26,7 +26,7 @@ extern double pi = 3.14; // 定义  
 标识符由数字、字母和下划线组成，必须以字母和下划线开头
 关键字不能用
 变量名一般用小写字母
-自定义类名一般以大写字母开头   
+自定义类名一般以大写字母开头
 由多个单词组成 中间有明显区别   
 
 - 引用
@@ -37,3 +37,18 @@ extern double pi = 3.14; // 定义  
 - 指针
 指针本身就是一个对象，允许对指针赋值和拷贝，而且在指针的生命周期它可以先后指向几个不同的对象
 指针无需在定义时赋值
+
+- cosnt对象一旦创建后其值就不能再改变了，所以const对象必须初始化
+
+- c++11新标准  decltype
+const int ci = 0 , &cj = ci;
+decltype(ci)x = 0;  //x的类型是const int
+decltype(cj)y = x;  //y的类型是const int&,y绑定到变量x
+decltype(cj)z;  //错误：z是一个引用，必须初始化
+
+- 头文件防止重复
+```
+#ifndef  _ADD_H_
+#define _ADD_H_
+#endif  //_ADD_H_
+```
