@@ -52,3 +52,20 @@ decltype(cj)z;  //错误：z是一个引用，必须初始化
 #define _ADD_H_
 #endif  //_ADD_H_
 ```
+
+- 初始化string对象的方式
+  - string s1;
+  - string s2(s1);
+  - string s3 = s1;
+  - string s3("abcd");
+  - string s4 = "sbcd";
+  - string s5(10 , 'x');//s5 由10个x构成
+
+- 当把string对象和字符字面值及字符串字面值混在一条语句中使用时，必须确保每个加法运算符（+）的两侧的对象至少有一个时string
+```
+string s1 = "hello ";
+string  s2 = s1 + "world";//true
+string s3 = "hello," + "world";//false
+```
+
+-
