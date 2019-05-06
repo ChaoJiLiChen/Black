@@ -52,6 +52,8 @@ int main(int argc, const char * argv[])
     
     //38.输出
     
+    //有一个问题 ：应该是先把当前的格子填写完成 再去判断接下来的格子在哪才对
+    
     //1.
     std::cout << "程序开始!\n";
     int hang = 0;
@@ -298,8 +300,8 @@ int main(int argc, const char * argv[])
         else
         {
             cube[hang -1][lie -1] = i;
-//            hang -= hang;
-//            lie -= lie;
+            hang -= hang;
+            lie -= lie;
             
             cout<<"-------------"<<endl;
             

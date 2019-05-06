@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x9b54;&#x65b9;&#x9635;&#xff08;&#x5947;&#x6570;&#xff09;/main.cpp"
-            timestampString = "578806762.1244431"
+            timestampString = "578810848.845103"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x9b54;&#x65b9;&#x9635;&#xff08;&#x5947;&#x6570;&#xff09;/main.cpp"
-            timestampString = "578806762.125126"
+            timestampString = "578810848.845481"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "268"
@@ -42,23 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x9b54;&#x65b9;&#x9635;&#xff08;&#x5947;&#x6570;&#xff09;/main.cpp"
-            timestampString = "578806762.125375"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "303"
-            endingLineNumber = "303"
-            landmarkName = "main(int argc, const char * argv[])"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x9b54;&#x65b9;&#x9635;&#xff08;&#x5947;&#x6570;&#xff09;/main.cpp"
-            timestampString = "578806762.125567"
+            timestampString = "578810848.845724"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "269"
@@ -74,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x9b54;&#x65b9;&#x9635;&#xff08;&#x5947;&#x6570;&#xff09;/main.cpp"
-            timestampString = "578806762.125767"
+            timestampString = "578810848.845961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "267"
