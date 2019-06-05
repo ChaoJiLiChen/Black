@@ -14,7 +14,7 @@
 - 程序文件通常被成为源文件，源文件的名字以一个后缀为结尾。常用的后缀有 .cc , .cxx , .cpp , .cp ,.c
 - 可以通过echo来获得其返回值 如果返回值是0，就是执行成功；如果是返回值是0以外的值，就是失败。
 ```
-echo &?
+  echo &?
 ```
 
 - 声明和定义
@@ -47,11 +47,11 @@ decltype(cj)y = x;  //y的类型是const int&,y绑定到变量x
 decltype(cj)z;  //错误：z是一个引用，必须初始化
 
 - 头文件防止重复
-```
-#ifndef  _ADD_H_
-#define _ADD_H_
-#endif  //_ADD_H_
-```
+  ```
+  #ifndef  _ADD_H_
+  #define _ADD_H_
+  #endif  //_ADD_H_
+  ```
 
 - 初始化string对象的方式
   - string s1;
