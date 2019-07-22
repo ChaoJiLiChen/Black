@@ -60,15 +60,15 @@ string cardNetNo(string strsouth)
     cardStrsouth[string("D0C2BDAED0C2BDAE")] = "65";//新疆维吾尔自治区公路收费（联网）管理中心
     cardStrsouth[string("BEFCB3B5BEFCB3B5")] = "05";//军车发行
     
-    
-    
-
     map<string, string>::iterator iter=cardStrsouth.find(strsouth);
     if(iter != cardStrsouth.end()){
         netNo = iter->second;
     }else{
         cout<<"Do not found"<<endl;
     }
+    
+    std::string strsouth = context.m_9001Text.cardIssuerID.substr (0, 8);
+    context.m_9001Text.cardNetNo += strsouth;
     
     return netNo;
 }
